@@ -1,0 +1,7 @@
+/home/yomi/2025things/linearHW/matrix_transform/build/CMakeFiles/matrix_transform.dir
+/home/yomi/2025things/linearHW/matrix_transform/build/CMakeFiles/edit_cache.dir
+/home/yomi/2025things/linearHW/matrix_transform/build/CMakeFiles/rebuild_cache.dir
+/home/yomi/2025things/linearHW/matrix_transform/build/CMakeFiles/list_install_components.dir
+/home/yomi/2025things/linearHW/matrix_transform/build/CMakeFiles/install.dir
+/home/yomi/2025things/linearHW/matrix_transform/build/CMakeFiles/install/local.dir
+/home/yomi/2025things/linearHW/matrix_transform/build/CMakeFiles/install/strip.dir
