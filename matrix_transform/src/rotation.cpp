@@ -22,7 +22,7 @@ Eigen::Matrix3d Rotation::eulerToRotMatrix(double roll, double pitch, double yaw
 Eigen::Vector3d Rotation::rotMatrixToEuler(const Eigen::Matrix3d& rotMatrix)
 {
   // TODO: 使用 Eigen 的 eulerAngles 方法提取欧拉角
-  // 提示：Eigen::Matrix3d 可以直接调用 .eulerAngles() 方法
+  // Eigen::Matrix3d 可以直接调用 .eulerAngles() 方法
   // 
   // 示例：
   // Eigen::Vector3d euler = rotMatrix.eulerAngles(2, 1, 0);  // ZYX 顺序
@@ -34,7 +34,7 @@ Eigen::Vector3d Rotation::rotMatrixToEuler(const Eigen::Matrix3d& rotMatrix)
 Eigen::Matrix3d Rotation::quaternionToRotMatrix(double w, double x, double y, double z)
 {
   // TODO: 使用 Eigen::Quaterniond 将四元数转换为旋转矩阵
-  // 提示：Eigen::Quaterniond 构造函数的参数顺序是 (w, x, y, z)
+  // Eigen::Quaterniond 构造函数的参数顺序是 (w, x, y, z)
   // 
   // 示例代码：
   // Eigen::Quaterniond q(w, x, y, z);
@@ -47,7 +47,7 @@ Eigen::Matrix3d Rotation::quaternionToRotMatrix(double w, double x, double y, do
 Eigen::Vector4d Rotation::rotMatrixToQuaternion(const Eigen::Matrix3d& rotMatrix)
 {
   // TODO: 使用 Eigen::Quaterniond 将旋转矩阵转换为四元数
-  // 提示：可以直接用旋转矩阵构造四元数
+  // 可以直接用旋转矩阵构造四元数
   // 
   // 示例代码：
   // Eigen::Quaterniond q(rotMatrix);
@@ -59,7 +59,7 @@ Eigen::Vector4d Rotation::rotMatrixToQuaternion(const Eigen::Matrix3d& rotMatrix
 Eigen::Matrix3d Rotation::angleAxisToRotMatrix(double angle, const Eigen::Vector3d& axis)
 {
   // TODO: 使用 Eigen::AngleAxisd 创建旋转矩阵
-  // 提示：AngleAxisd 的构造函数：AngleAxisd(angle, axis)
+  // AngleAxisd 的构造函数：AngleAxisd(angle, axis)
   // 
   // 示例代码：
   // Eigen::Vector3d normalized_axis = axis.normalized();  // 先归一化轴

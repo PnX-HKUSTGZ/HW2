@@ -1,2 +1,9 @@
 matrix_transform/build/
 matrix_transform/README.md
+matrix_transform/compile_commands.json
+matrix_transform/CMakeCache.txt
+matrix_transform/CMakeFiles/
+matrix_transform/Makefile
+matrix_transform/cmake_install.cmake
+matrix_transform/*.a
+matrix_transform/*.so

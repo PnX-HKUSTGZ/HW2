@@ -7,7 +7,7 @@ Eigen::Matrix4d Transform::buildTransform(
   const Eigen::Vector3d& translation)
 {
   // TODO: 构建 4x4 齐次变换矩阵
-  // 提示：齐次变换矩阵的结构：
+  // 齐次变换矩阵的结构：
   // [ R R R t ]
   // [ R R R t ]
   // [ R R R t ]
@@ -47,7 +47,7 @@ Eigen::Matrix4d Transform::computeRelativeTransform(
   const Eigen::Matrix4d& to_frame)
 {
   // TODO: 计算从 from_frame 到 to_frame 的相对变换
-  // 提示：T_relative = T_to^(-1) * T_from
+  // T_relative = T_to^(-1) * T_from
   // 
   // Eigen 中求逆矩阵：使用 .inverse() 方法
   // 例如：Eigen::Matrix4d inv_to = to_frame.inverse();
@@ -64,7 +64,7 @@ Eigen::Matrix4d Transform::transformArmorToWorld(
   // - armor_in_camera: 装甲板在相机坐标系下的位姿（由 PnP 求解得到）
   // - camera_to_world: 相机到世界坐标系的变换（由 TF2 提供）
   // 
-  // 提示：变换链的复合就是矩阵乘法
+  // 变换链的复合就是矩阵乘法
   // armor_in_world = camera_to_world * armor_in_camera
   
   throw std::runtime_error("Function not implemented!");
