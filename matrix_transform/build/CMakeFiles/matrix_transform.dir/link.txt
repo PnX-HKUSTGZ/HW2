@@ -1,2 +1,0 @@
-/usr/bin/ar qc libmatrix_transform.a CMakeFiles/matrix_transform.dir/src/matrix_basics.cpp.o CMakeFiles/matrix_transform.dir/src/rotation.cpp.o CMakeFiles/matrix_transform.dir/src/transform.cpp.o
-/usr/bin/ranlib libmatrix_transform.a
